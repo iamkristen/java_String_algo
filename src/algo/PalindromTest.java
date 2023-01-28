@@ -49,10 +49,29 @@ public class PalindromTest {
 		return s.equals(reverse(s)); //isEqual(s,reverse(s)); 	
 	
 	}
+	
+	
+//============= isPalindrome without recursion =========
+	
+//	private static boolean isPalindromString(String string) {
+//		char[] ch = string.toCharArray();
+//		int count =0;
+//		for(int i=0; i< ch.length/2; i++) {
+//		if(ch[i] == ch[ ch.length-1-i]){
+//		count++;
+//		continue;
+//		}
+//		}
+//		if(count >0) {
+//		return true;
+//		}
+//		return false;
+//		}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String test = "naan";
-		System.out.println(isPalindromString(test));
+		String test = "natan";
+		System.out.println(isPalindromString(test)); 
 		
 	}
 
