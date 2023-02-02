@@ -15,7 +15,7 @@ public class WordCount {
 		int count=0;
 		
 		for (int i =0;i<=data.length-1;i++) {
-			if(m == data[i].toString()) {
+			if(m == data[i]) {
 				count++;
 			}
 		}
